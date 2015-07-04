@@ -1,0 +1,11 @@
+{
+  "author_full_name": "Full name",
+  "author_email": "email@email.com",
+  "github_username": "githubusername",
+  "dist_name": "Automate-Foobar",
+  "repo_name": "{{ cookiecutter.dist_name|lower }}",
+  "ext_name": "{{ cookiecutter.repo_name|replace('automate-', '') }}",
+  "short_description": "Automate extension for Foobar mechanics",
+  "year": "2015",
+  "version": "0.1.0"
+}
