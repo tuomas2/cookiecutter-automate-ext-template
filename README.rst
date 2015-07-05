@@ -3,14 +3,14 @@ cookiecutter-automate-ext-template
 **********************************
 
 `cookiecutter <http://cookiecutter.readthedocs.org/>`_ template for a
-`Automate <http://>`_ extension.
+`Automate <http://github.com/tuomas2/automate/>`_ extension.
 
 The template sets up a project with:
 
 - a readme explaining how to install and configure the extension,
-- a license file with the *** License,
+- a license file with the LICENCE.txt,
 - a Python module with an empty Automate extension,
-- an empty test suite executed with ``py.test``,
+- an empty test suite that can be executed with ``py.test``,
 - a ``setup.py`` file for releasing and installing the extension as a Python
   package.
 
@@ -37,4 +37,4 @@ Further reading
 ===============
 
 To learn more about creating Automate extensions, please read the docs on
-`extension development <http://>`_.
+`extension development <http://tuomasairaksinen.fi/automate/docs/extensions.html>`_.
