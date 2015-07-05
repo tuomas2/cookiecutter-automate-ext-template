@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
-import re
 
-install_reqs = parse_requirements('requirements.pip')
 def get_version(filename):
+    import re
     with open(filename) as fh:
         metadata = dict(re.findall("__([a-z]+)__ = '([^']+)'", fh.read()))
         return metadata['version']
@@ -14,10 +12,7 @@ setupopts = dict(
     name="{{ cookiecutter.dist_name }}",
     version=get_version('automate_{{ cookiecutter.ext_name }}/__init__.py'),
     packages=find_packages(),
-
-    install_requires=[str(ir.req) for ir in install_reqs],
-
-    # metadata for upload to PyPI
+    install_requires=["automate==0.9.1"],
     author="{{ cookiecutter.author_full_name }}",
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.short_description }}",
