@@ -37,4 +37,4 @@ Further reading
 ===============
 
 To learn more about creating Automate extensions, please read the docs on
-`extension development <http://tuomasairaksinen.fi/automate/docs/extensions.html>`_.
+`extension development <http://python-automate.readthedocs.org/en/latest/extensions.html>`_.
