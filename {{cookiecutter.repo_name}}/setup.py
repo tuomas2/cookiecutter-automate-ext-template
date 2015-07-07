@@ -12,7 +12,7 @@ setupopts = dict(
     name="{{ cookiecutter.dist_name }}",
     version=get_version('automate_{{ cookiecutter.ext_name }}/__init__.py'),
     packages=find_packages(),
-    install_requires=["automate==0.9.1"],
+    install_requires=["automate"],
     author="{{ cookiecutter.author_full_name }}",
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.short_description }}",
@@ -25,8 +25,6 @@ setupopts = dict(
 
     classifiers=["Development Status :: 4 - Beta",
                  "Environment :: Console",
-                 "Environment :: X11 Applications :: Qt",
-                 "Environment :: Win32 (MS Windows)",
                  "Environment :: Web Environment",
                  "Intended Audience :: Education",
                  "Intended Audience :: End Users/Desktop",
