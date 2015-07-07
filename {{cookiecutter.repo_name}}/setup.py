@@ -25,7 +25,6 @@ setupopts = dict(
 
     classifiers=["Development Status :: 4 - Beta",
                  "Environment :: Console",
-                 "Environment :: Web Environment",
                  "Intended Audience :: Education",
                  "Intended Audience :: End Users/Desktop",
                  "Intended Audience :: Developers",
@@ -33,6 +32,7 @@ setupopts = dict(
                  "License :: Free for non-commercial use",
                  "Operating System :: Microsoft :: Windows",
                  "Operating System :: POSIX",
+                 "Operating System :: POSIX :: Linux",
                  "Programming Language :: Python :: 2.7",
                  "Topic :: Scientific/Engineering",
                  "Topic :: Software Development",
