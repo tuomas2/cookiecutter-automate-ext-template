@@ -12,7 +12,7 @@ setupopts = dict(
     name="{{ cookiecutter.dist_name }}",
     version=get_version('automate_{{ cookiecutter.ext_name }}/__init__.py'),
     packages=find_packages(),
-    install_requires=["automate>=0.9.2,<=0.10"],
+    install_requires=["automate>=0.9.1,<0.10"],
     author="{{ cookiecutter.author_full_name }}",
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.short_description }}",
